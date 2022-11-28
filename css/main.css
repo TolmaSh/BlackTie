@@ -178,6 +178,9 @@ a:after {
 .third_divider {
     background:url('../img/bg/divider3.jpg');
 }
+.fourth_divider {
+    background:url('../img/bg/divider4.jpg');
+}
 /* TEAM SECTION */
 .team_img {
     width: 120px;
@@ -208,4 +211,9 @@ a:after {
     font-size: 60px;
     line-height: 30px;
     margin-bottom: 10px;
+}
+
+/* PORTFOLIO */
+.portfolio_item {
+    padding-bottom: 20px;
 }
