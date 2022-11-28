@@ -34,7 +34,32 @@ hr:before {
     height: 2px;
     background: #ccc;
 }
+a {
+    color: #3498db;
+    word-wrap: break-word;
 
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #c0392b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
 .centered {
     text-align: center;
 }
@@ -150,8 +175,37 @@ hr:before {
 .second_divider {
     background:url('../img/bg/divider2.jpg');
 }
+.third_divider {
+    background:url('../img/bg/divider3.jpg');
+}
 /* TEAM SECTION */
 .team_img {
     width: 120px;
     height: 120px;
+}
+/* HIRING SECTION */
+.hiring_content {
+    background: #f5f5f5;
+    margin-top: 0px;
+    padding-top: 40px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.hiring_content .callout {
+    margin-bottom: 20px;
+}
+
+.hiring_content p {
+    margin-left: 30px;
+    margin-right: 30px;
+    letter-spacing: 1px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.hiring_content .icon {
+    font-size: 60px;
+    line-height: 30px;
+    margin-bottom: 10px;
 }
