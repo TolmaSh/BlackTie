@@ -46,6 +46,42 @@ hr:before {
     padding-top: 25px;
 }
 
+.section-divider {
+    z-index: 999;
+    width: 100%;
+    display: table;
+    max-height: 450px;
+    border-bottom: 2px solid #E6EAED;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    margin-top: 45px;
+
+
+    background-position: center center;
+
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+}
+
+.section-divider h1 {
+    padding-top: 70px;
+    color: white;
+    font-size: 40px;
+}
+
+.section-divider p {
+    color: white;
+    font-size: 25px;
+}
+
+
 /* HEADER */
 
 .header_content {
@@ -107,5 +143,7 @@ hr:before {
     line-height: 30px;
     margin-bottom: 10px;
 }
-/* ABOUT SECTION */
-
+/* FIRST DIVIDER SECTION */
+.first_divider {
+    background:url('../img/bg/divider1.jpg');
+}
