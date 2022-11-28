@@ -181,6 +181,9 @@ a:after {
 .fourth_divider {
     background:url('../img/bg/divider4.jpg');
 }
+.fifth_divider {
+    background:url('../img/bg/divider6.jpg');
+}
 /* TEAM SECTION */
 .team_img {
     width: 120px;
