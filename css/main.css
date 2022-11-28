@@ -143,7 +143,10 @@ hr:before {
     line-height: 30px;
     margin-bottom: 10px;
 }
-/* FIRST DIVIDER SECTION */
+/* DIVIDERS SECTION */
 .first_divider {
     background:url('../img/bg/divider1.jpg');
+}
+.second_divider {
+    background:url('../img/bg/divider2.jpg');
 }
