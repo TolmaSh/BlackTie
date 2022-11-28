@@ -150,3 +150,8 @@ hr:before {
 .second_divider {
     background:url('../img/bg/divider2.jpg');
 }
+/* TEAM SECTION */
+.team_img {
+    width: 120px;
+    height: 120px;
+}
