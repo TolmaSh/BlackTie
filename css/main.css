@@ -1,16 +1,20 @@
 /*GENERAL STYLES */
 
 body {
-    font-family: "Lato";
+    font-family: "Lato", serif;
     font-weight: 300;
     font-size: 16px;
     color: #555;
 
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway";
+    font-family: "Raleway", serif;
     font-weight: 300;
     color: #333;
+}
+h1 {
+    font-size: 36px;
+    font-weight: 300;
 }
 p {
     line-height: 28px;
@@ -23,6 +27,7 @@ hr {
     height: 1px;
     margin: 1em 0;
     padding: 0;
+    opacity: 1;
 }
 
 hr:before {
@@ -37,7 +42,7 @@ hr:before {
 a {
     color: #3498db;
     word-wrap: break-word;
-
+    text-decoration: none;
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
     -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
     -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -60,11 +65,11 @@ a:after {
     -o-transition: color 0.1s ease-in, background 0.1s ease-in;
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
-.centered {
-    text-align: center;
-}
+
 .white h1 {
-    padding-top: 35px;
+    margin-top: 75px;
+    font-size: 36px;
+    line-height: 40px;
 }
 
 .white p {
@@ -105,7 +110,33 @@ a:after {
     color: white;
     font-size: 25px;
 }
+.img {
+    vertical-align: middle;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+}
 
+
+/* NAVBAR */
+.navbar {
+    background-color: #222;
+}
+.nav-link {
+    color: #9d9d9d;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    font-weight: 300;
+}
+.nav-link:hover {
+    color: #6b6b6b;
+}
 
 /* HEADER */
 
@@ -150,6 +181,9 @@ a:after {
     border-bottom: 1px solid #ddd;
     text-align: center;
 }
+.features_content > .row {
+    margin: 0;
+}
 
 .features_content .callout {
     margin-bottom: 20px;
@@ -185,9 +219,17 @@ a:after {
     background:url('../img/bg/divider6.jpg');
 }
 /* TEAM SECTION */
+.team_content a {
+    text-decoration: none;
+}
 .team_img {
     width: 120px;
     height: 120px;
+}
+.team_person {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 19px;
 }
 /* HIRING SECTION */
 .hiring_content {
@@ -220,6 +262,10 @@ a:after {
 .portfolio_item {
     padding-bottom: 20px;
 }
+.portfolio_item > img {
+    width: 100%;
+    height: 100%;
+}
 /* BLOG SECTION */
 .blog-bg {
     background: #2b2b2b;
@@ -231,6 +277,7 @@ a:after {
 .blog-bg h4 {
     color: #dadada;
     padding-top: 0px;
+    font-size: 18px;
 }
 
 .blog-bg h5 {
@@ -242,6 +289,7 @@ a:after {
     padding-top: 10px;
     background: #f2f2f2;
 }
+
 .blog-bg img {
     width: 60px;
     height: 60px;
